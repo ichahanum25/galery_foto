@@ -1,0 +1,35 @@
+.nav-link{
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.bg-hero{
+    background: url('../img/2.jpg') no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.section {
+    padding: 25px 0;
+}
+.box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 25px 0;
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
